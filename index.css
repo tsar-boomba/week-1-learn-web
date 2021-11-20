@@ -1,0 +1,30 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: clamp(300px, 1200px, 100%);
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+.loops {
+	display: flex;
+}
